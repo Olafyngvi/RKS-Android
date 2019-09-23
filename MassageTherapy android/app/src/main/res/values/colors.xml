@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">@color/bojaGumb</color>
+    <color name="pozadina">#FFF</color>
+    <color name="bojaGumb">#0B3C65</color>
+    <color name="bojaDugme">#7dbea6</color>
+    <color name="bojaText">	#FFF</color>
+    <color name="succ">#4BB543</color>
+    <color name="Korisnik">#E8E8E8</color>
+    5087DA
+    <color name="status">#5087DA</color>
+
+
+
+</resources>

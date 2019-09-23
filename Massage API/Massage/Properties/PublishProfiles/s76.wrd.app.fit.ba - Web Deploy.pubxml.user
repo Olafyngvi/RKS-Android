@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWaH0FJ3MK0a2ivqbwijNugAAAAACAAAAAAAQZgAAAAEAACAAAABuDyQ+gjEf0WNJHJnFhEJD4p4Kt8rP49hBpIxyzMKPwwAAAAAOgAAAAAIAACAAAACDyYeYSVKXU7xfR+yEOP7upCkZBLTtGZP+lptgfj/h+CAAAADfHtSK3Yo39Kz1HYgcuHwSTPmKWMUBfvLiIrIa1Sn7VEAAAAB89mcyUcvObVBNI2rSJ2NmrotL6rKqh6aCYXvoRtZ31Hb1OVJRWRqs7iTC36DjdfoBKOxsWxHHsTy6y4N6y/0p</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MojConnectionString">
+      <Value>Server=.\MSSQLSERVER2017%3bDatabase=Massage%3bUser ID=Riki%3b Password=Greendevil123</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

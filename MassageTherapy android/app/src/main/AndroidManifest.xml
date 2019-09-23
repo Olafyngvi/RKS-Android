@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.massagetherapy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/roundedicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/roundedicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".AdminRezervacijeActivity"
+            android:label="@string/title_activity_admin_rezervacije"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".KatalogActivity"
+            android:label="@string/title_activity_katalog"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UspjesnoActivity"
+            android:label="@string/title_activity_uspjesno"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RezervacijaTerminaActivity"
+            android:label="@string/title_activity_rezervacija_termina"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditPodatakaUserActivity"
+            android:label="@string/title_activity_edit_podataka_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditPodatakaAdmin"
+            android:label="EditPodatakaAdmin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MojeRezervacijeActivity"
+            android:label="@string/title_activity_moje_rezervacije"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminPregledActivity"
+            android:label="@string/title_activity_admin_pregled"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KorisnikActivity"
+            android:label="@string/title_activity_korisnik"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistracijaActivity"
+            android:label="@string/title_activity_registracija"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UslugeActivity"
+            android:label="@string/title_activity_usluge"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
